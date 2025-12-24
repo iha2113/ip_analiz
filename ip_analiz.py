@@ -14,7 +14,7 @@ def figlet():
 def get_ip(islem_no):
     if islem_no == 1:
         try:
-            # eth0 yerine varsayılan IP'yi almak daha güvenlidir
+            
             cmd = "hostname -I | awk '{print $1}'"
             ip = subprocess.check_output(cmd, shell=True).decode().strip()
             return ip
@@ -28,7 +28,7 @@ def analiz_et(ip_str):
         ip = IPAddress(ip_str)
         ilk_oktet = ip.words[0]
         
-        # Sınıf ve Varsayılan Maske Belirleme
+        
         if 1 <= ilk_oktet <= 126:
             sinif, mask = "A", "255.0.0.0"
         elif 128 <= ilk_oktet <= 191:
@@ -58,7 +58,7 @@ def analiz_et(ip_str):
     except AddrFormatError:
         print("Hata: Geçersiz bir IP formatı girdiniz!")
 
-# Ana Akış
+
 figlet()
 secim = input("1: Makine IP'si, 2: Manuel giriş\nİşlem: ")
 if secim in ['1', '2']:
@@ -66,4 +66,5 @@ if secim in ['1', '2']:
     if hedef_ip:
         analiz_et(hedef_ip)
 else:
+
     print("Geçersiz seçim.")

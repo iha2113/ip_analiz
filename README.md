@@ -9,6 +9,7 @@ Bu Python aracı, yerel makinenizin veya dışarıdan girilen bir IPv4 adresinin
 * **Detaylı Bilgi:** CIDR, Broadcast adresi ve toplam kullanılabilir host sayısını gösterir.
 * **Alt Ağ Hesaplama:** Mevcut ağın bölünebilirlik durumunu kontrol eder.
 
+<img width="662" height="380" alt="image" src="https://github.com/user-attachments/assets/c155be62-5d59-4637-b41e-fbafb56688a9" />
 
 
   

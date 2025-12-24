@@ -13,5 +13,5 @@ Bu Python aracı, yerel makinenizin veya dışarıdan girilen bir IPv4 adresinin
 
 1. Projeyi klonlayın:
    ```bash
-   git clone 
+   git clone https://github.com/iha2113/ip_analiz.git
    cd ip-analiz

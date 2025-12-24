@@ -8,8 +8,14 @@ Bu Python aracı, yerel makinenizin veya dışarıdan girilen bir IPv4 adresinin
 * **Sınıf Analizi:** A, B ve C sınıfı IP adreslerini tanımlar.
 * **Detaylı Bilgi:** CIDR, Broadcast adresi ve toplam kullanılabilir host sayısını gösterir.
 * **Alt Ağ Hesaplama:** Mevcut ağın bölünebilirlik durumunu kontrol eder.
+  
 
 <img width="662" height="380" alt="image" src="https://github.com/user-attachments/assets/c155be62-5d59-4637-b41e-fbafb56688a9" />
+
+
+
+<img width="527" height="249" alt="image" src="https://github.com/user-attachments/assets/e2fccbe9-595d-4189-87ae-808016627d81" />
+
 
 
   

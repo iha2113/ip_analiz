@@ -9,6 +9,12 @@ Bu Python aracı, yerel makinenizin veya dışarıdan girilen bir IPv4 adresinin
 * **Detaylı Bilgi:** CIDR, Broadcast adresi ve toplam kullanılabilir host sayısını gösterir.
 * **Alt Ağ Hesaplama:** Mevcut ağın bölünebilirlik durumunu kontrol eder.
 
+# Gereksinimler
+  pip install -r requirements.txt
+  sudo apt-get install figlet
+
+
+  
 ## Kurulum
 
 1. Projeyi klonlayın:
@@ -16,3 +22,12 @@ Bu Python aracı, yerel makinenizin veya dışarıdan girilen bir IPv4 adresinin
    git clone https://github.com/iha2113/ip_analiz.git
    cd ip-analiz
    python3 ip_analiz.py
+
+---
+
+### 2. requirements.txt
+Kullanıcıların bağımlılıkları tek seferde yüklemesi için gereklidir.
+
+```text
+netaddr==1.3.0
+

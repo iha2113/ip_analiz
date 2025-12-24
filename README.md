@@ -15,3 +15,4 @@ Bu Python aracı, yerel makinenizin veya dışarıdan girilen bir IPv4 adresinin
    ```bash
    git clone https://github.com/iha2113/ip_analiz.git
    cd ip-analiz
+   python3 ip_analiz.py
